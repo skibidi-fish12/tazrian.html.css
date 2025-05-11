@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #fff4e6, #ffe0b3); /* Warm background */
+    background: linear-gradient(to right, #fff4e6, #ffe0b3); 
     font-family: 'Arial', sans-serif;
     color: #3b2f2f;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #556b2f; /* Deep olive green */
+    background-color: #556b2f; 
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -40,7 +40,7 @@ p {
 .plate-second {
     background: #fffdf8;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(111, 78, 55, 0.2); /* Soft brown shadow */
+    box-shadow: 0 4px 8px rgba(111, 78, 55, 0.2); 
     overflow: hidden;
     text-align: center;
     width: calc(33.33% - 20px);
