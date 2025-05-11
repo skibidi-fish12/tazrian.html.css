@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to right, #fff4e6, #ffe0b3); /* Warm background */
+    font-family: 'Arial', sans-serif;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #556b2f; /* Deep olive green */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.food-gallery {
+    padding: 40px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-one,
+.row-two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.plate,
+.plate-second {
+    background: #fffdf8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(111, 78, 55, 0.2); /* Soft brown shadow */
+    overflow: hidden;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    min-width: 250px;
+    transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+
+.plate:hover,
+.plate-second:hover {
+    background-color: #fce8d5;
+    transform: scale(1.05);
+}
+
+.dish-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 5px solid #cd5c5c; /* Muted terracotta */
+}
+
+.dish-name {
+    font-weight: bold;
+    padding: 10px;
+    color: #8b4513; /* SaddleBrown text */
+}
+
+footer {
+    background-color: #556b2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+.navbar {
+    border: 2px solid black;
+ }
+ 
+  .navbar { background: #f76c5e; font-family: calibri; padding-right: 15px;padding-left: 15px;
+ }
+  .navdiv{
+ 
+ display: flex; align-items: center; justify-content: space-between;
+ 
+ }
+ 
+ .logo a{
+ 
+ font-size: 35px; font-weight: 600; color: white;
+ 
+  }
+ 
+ li  {list-style: none; display: inline-block }
+ 
+ li a{
+ 
+ color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+ 
+ }
+ 
+ button{
+ 
+ background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+  }
+ 
+ button a{
+ 
+ color: white; font-weight: bold; font-size: 15px;
+  }
